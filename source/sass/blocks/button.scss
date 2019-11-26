@@ -1,0 +1,55 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 240px;
+  min-width: 150px;
+  position: relative;
+  z-index: 10;
+
+  font-size: 14px;
+  line-height: 13px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  margin: 0 auto;
+  padding: 15px 40px;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+
+  background-color: #00A5E5;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+
+  background-color: blue;
+}
+
+.button:hover::after {
+  animation-name: button-bg;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes button-bg {
+  100% {
+    height: 100%;
+  }
+}

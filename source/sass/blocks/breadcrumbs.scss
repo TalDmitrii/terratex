@@ -1,0 +1,29 @@
+.breadcrumbs {
+  background-color: #EDEFEF;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  justify-content: center;
+
+  list-style: none;
+  margin: 0;
+  padding: 19px;
+}
+
+.breadcrumbs__item {
+  font-size: 12px;
+  line-height: 12px;
+  color: #BEBEBE;
+
+  margin-right: 3px;
+}
+
+.breadcrumbs__item a {
+  text-decoration: none;
+}
+
+.breadcrumbs__item a:hover span,
+.breadcrumbs__item a:focus span {
+  color: #004A98;
+}

@@ -1,0 +1,33 @@
+.first-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 179px;
+  padding-bottom: 166px;
+
+  background-color: black;
+  background-image: url("../img/item.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.first-screen__border-wrapper {
+  position: relative;
+  max-width: 70%;
+}
+
+.first-screen h1 {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 3.4898px;
+  color: #FFFFFF;
+
+  margin: 0;
+  padding: 15px 23px;
+}

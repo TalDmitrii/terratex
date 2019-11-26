@@ -1,0 +1,18 @@
+@import "variables";
+@import "fonts";
+@import "global";
+@import "mixins";
+
+/* Плагины */
+@import "plugins/normalize";
+@import "plugins/swiper";
+
+/* Блоки */
+@import "blocks/page-header";
+@import "blocks/first-screen";
+@import "blocks/dot-border.scss";
+@import "blocks/breadcrumbs.scss";
+@import "blocks/page-content.scss";
+@import "blocks/space-survey-method.scss";
+@import "blocks/button.scss";
+@import "blocks/satellite.scss";

@@ -1,0 +1,63 @@
+.dot-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.dot-border__left-top {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 0;
+
+  background-color: white;
+  box-shadow: 8px 0 0 0 white,
+              16px 0 0 0 white,
+              0 8px 0 0 white,
+              0 16px 0 0 white;
+}
+
+.dot-border__left-bottom {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+
+  background-color: white;
+  box-shadow: 8px 0 0 0 white,
+              16px 0 0 0 white,
+              0 -8px 0 0 white,
+              0 -16px 0 0 white;
+}
+
+.dot-border__right-top {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  right: 0;
+
+  background-color: white;
+  box-shadow: -8px 0 0 0 white,
+              -16px 0 0 0 white,
+              0 8px 0 0 white,
+              0 16px 0 0 white;
+}
+
+.dot-border__right-bottom {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  bottom: 0;
+  right: 0;
+
+  background-color: white;
+  box-shadow: -8px 0 0 0 white,
+              -16px 0 0 0 white,
+              0 -8px 0 0 white,
+              0 -16px 0 0 white;
+}

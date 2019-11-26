@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("OpenSans"),
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100;
+  src: local("OpenSans"),
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: local("OpenSans"),
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+}
